@@ -1,1 +1,1 @@
-# okonomics.github.io
+# OKO-WEB
