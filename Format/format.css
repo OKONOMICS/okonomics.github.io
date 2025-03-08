@@ -1,109 +1,91 @@
-html, body {
+
+body,html {
     font-family: Garamond, sans-serif;
-    line-height: 1;
-    margin: 0;
-    width: 100%;
     background-color: rgb(46, 64, 83);
+    height:100%;
+    overflow-x:hidden;
+    box-sizing:border-box;
+}
+div{
+    padding: 0 !important;
+    margin: 0 !important;
+
+}
+body{
+    line-height: 1;
+    letter-spacing: .5px;
+    overflow-x:hidden;
+    box-sizing:border-box;
     
 }
-
 header, footer{
-    display:flex;
-    justify-content: space-between;
-    flex-direction: row;
-    padding: 40px;
-    border:solid;
+    border:solid 2px;
     border-color: #000000;
-    height: 20%;
-    margin: auto;       
+    height:20%;
+    text-align: center;
+    overflow-x:hidden;
+    box-sizing:border-box;
 }
-
-div{
-    display:flex;
-    justify-content: space-between;
-    flex-direction: column;
-    width:33%;
-}
-
 main {
-    display: flex; 
-    flex-direction: row; 
-    min-height: 100vh;
-    padding:50px 80px;
-    height: 60%;   
+    height: 60%;
+    padding:5%;
+    overflow-x:hidden;
+    box-sizing:border-box;
 }
 h1 {
-    font-size: 4rem !important;
     font-weight: 200;
-    margin-bottom: 10px;
-    letter-spacing: .5px;
-    margin-top: 15px;
     text-align: center;
     color: rgb(212, 180, 131);
     
 }
 
 h2 {
-    font-size: 2rem;
     font-weight: 200;
-    letter-spacing: .5px;
-    margin-bottom: 10px;
-    margin-top: 15px;
     color: rgb(212, 180, 131);
 }
 
 h3{
-    font-size: 1.5rem;
-    letter-spacing: .5px;
     font-weight: 200;
-    margin-bottom: 10px;
-    margin-top: 15px;
     color: rgb(212, 180, 131);
 }
 
-p,li,ul{
+p,li,ul,a{
+    
     font-weight: 500;
-    letter-spacing: .5px;
-    font-size: 1rem;
     color: rgb(253, 254, 254);
 }
 
 a{
-    
     background-color: transparent;
     cursor: pointer;
     text-decoration: none;
-    font-size: 1.75rem;
     color: rgb(253, 254, 254);
-    margin-left: 25px;
 }
-
 a:focus {
     outline: none;
+    color: rgb(253, 254, 254);
 }
 a:hover{
     color: rgb(212, 180, 131);
 }
 
 b{
-    font-weight: 700;    
+    font-weight: 700;
 }
 
 img {
     border-style: none
 }
-
-
-
 .highlight{
-    font-size: 4rem !important;
     font-weight: 500;
     text-decoration: none;
     color: rgb(212, 180, 131);
 }
-.small{
-    size:50%;
-}
 .grow{
-    size:250%;
+    font-size:3rem;
+    overflow-x:hidden;
+    box-sizing:border-box;
+}
+.overflow{
+    overflow-x:hidden;
 }
