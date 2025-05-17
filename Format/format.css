@@ -20,7 +20,7 @@ body{
 }
 header, footer{
     border:solid 2px;
-    border-color: #000000;
+    color: rgb(212, 180, 131);
     height:20%;
     text-align: center;
     overflow-x:hidden;
@@ -88,4 +88,24 @@ img {
 }
 .overflow{
     overflow-x:hidden;
+}
+.icon{
+    height: auto; 
+    width: auto; 
+    max-width: 15%; 
+    max-height:15%;
+}
+.image {
+    position: relative;
+}
+    
+.image:hover:after {
+    position: absolute;
+    content: attr(title);
+    display: inline-block;
+    left: 0%;
+    bottom: 5%;
+    padding: 1.5%;
+    background-color: rgb(212, 180, 131);
+    color: white;
 }
