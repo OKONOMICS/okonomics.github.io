@@ -1,7 +1,7 @@
 
 body,html {
     font-family: Garamond, sans-serif;
-    background-color: rgb(46, 64, 83);
+    background-color: rgb(10, 44, 80);
     height:100%;
     overflow-x:hidden;
     box-sizing:border-box;
@@ -20,7 +20,7 @@ body{
 }
 header, footer{
     border:solid 2px;
-    color: rgb(212, 180, 131);
+    color:rgb(212, 180, 131);
     height:20%;
     text-align: center;
     overflow-x:hidden;
